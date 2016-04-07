@@ -7,17 +7,31 @@ import React, {
   Component,
   StyleSheet,
   Text,
-  View
+  View,
+  NavigatorIOS
 } from 'react-native';
+
+const NavigatorPage = React.createClass({
+  render() {
+    return (
+      <View>
+
+      </View>
+    );
+  }
+});
 
 class ios extends Component {
   render() {
     return (
-      <View>
-        
-      </View>
+      <NavigatorIOS
+        initialRoute={{
+          title: '',
+          component: NavigatorPage
+        }}
+      />
     );
-  }
+  };
 }
 
 const styles = StyleSheet.create({
