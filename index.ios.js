@@ -7,15 +7,16 @@ import React, {
   Component,
   StyleSheet,
   Text,
-  View
+  View,
+  TabBarIOS
 } from 'react-native';
 
 class ios extends Component {
   render() {
     return (
-      <View>
+      <TabBarIOS>
         
-      </View>
+      </TabBarIOS>
     );
   }
 }
